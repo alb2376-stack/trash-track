@@ -28,7 +28,7 @@ main {                               /* Target the main content area */
   font-weight: 300;                   /* Make the text bold */
   text-transform: uppercase;          /* Convert text to all capital letters */
   margin-top: 12px;                   /* Add 40 pixels of space above this element */
-  margin-bottom: 12px;                /* Add 12 pixels of space below this element */
+  margin-bottom: 40px;                /* Add 12 pixels of space below this element */
   font-size: 30px;                    /* Set font size to 14 pixels */
   font-style: italic;                 /* Make the text italic */
   text-align: center;  
