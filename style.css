@@ -35,7 +35,7 @@ main {                               /* Target the main content area */
 }
 
 .project-heading {                      /* Target elements with class="project-author" */
-  font-weight: 500;                   /* Make the text bold */
+  font-weight: 700;                   /* Make the text bold */
   text-transform: uppercase;          /* Convert text to all capital letters */
   margin-top: 20px;                   /* Add 40 pixels of space above this element */
   margin-bottom: 20px;                /* Add 12 pixels of space below this element */
