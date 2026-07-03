@@ -14,8 +14,8 @@ main {                               /* Target the main content area */
   padding: 0 20px;                    /* Add 20px left/right padding, no top/bottom */
 }
 
-.section-title {                      /* Target elements with class="section-title" */
-  font-weight: 700;                   /* Make the text bold */
+.project-title {                      /* Target elements with class="section-title" */
+  font-weight: 2000;                   /* Make the text bold */
   text-transform: uppercase;          /* Convert text to all capital letters */
   margin-top: 40px;                   /* Add 40 pixels of space above this element */
   margin-bottom: 12px;                /* Add 12 pixels of space below this element */
