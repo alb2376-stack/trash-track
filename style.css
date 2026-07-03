@@ -3,7 +3,7 @@
 body {                              /* Target the entire page body */
   font-family: 'Roboto', sans-serif;  /* Set the font to Roboto, with sans-serif as backup */
   background-color: #ffffff;          /* Set background color to white */
-  color: #ffffff;                        /* Set text color to dark gray (almost black) */
+  color: #000000;                        /* Set text color to dark gray (almost black) */
   margin: 0;                          /* Remove default spacing around the body */
   padding: 0;                         /* Remove default internal spacing */
 }
@@ -50,6 +50,15 @@ main {                               /* Target the main content area */
   margin-bottom: 20px;                /* Add 12 pixels of space below this element */
   font-size: 20px;                    /* Set font size to 14 pixels */                /* Make the text italic */
   text-align: left;  
+}
+
+.project-link {                      /* Target elements with class="project-author" */
+  font-weight: 500;                   /* Make the text bold */          /* Convert text to all capital letters */
+  margin-top: 20px;                   /* Add 40 pixels of space above this element */
+  margin-bottom: 20px;                /* Add 12 pixels of space below this element */
+  font-size: 10px;                    /* Set font size to 14 pixels */                /* Make the text italic */
+  text-align: left;  
+  font-style: italic;
 }
 
 button {                              /* Target all button elements */
