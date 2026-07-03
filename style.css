@@ -15,11 +15,23 @@ main {                               /* Target the main content area */
 }
 
 .project-title {                      /* Target elements with class="section-title" */
-  font-weight: 2000;                   /* Make the text bold */
+  font-weight: 700;                   /* Make the text bold */
+  text-transform: uppercase;          /* Convert text to all capital letters */
+  margin-top: 40px;                   /* Add 40 pixels of space above this element */
+  margin-bottom: 12px;                /* Add 12 pixels of space below this element */
+  font-size: 14px;     
+  font-style: bold;                 /* Make the text italic */
+  text-align: center;               /* Set font size to 14 pixels */
+}
+
+.project-author {                      /* Target elements with class="project-author" */
+  font-weight: 700;                   /* Make the text bold */
   text-transform: uppercase;          /* Convert text to all capital letters */
   margin-top: 40px;                   /* Add 40 pixels of space above this element */
   margin-bottom: 12px;                /* Add 12 pixels of space below this element */
   font-size: 14px;                    /* Set font size to 14 pixels */
+  font-style: italic;                 /* Make the text italic */
+  text-align: center;  
 }
 
 button {                              /* Target all button elements */
