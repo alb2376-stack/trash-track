@@ -56,9 +56,14 @@ main {                               /* Target the main content area */
   font-weight: 500;                   /* Make the text bold */          /* Convert text to all capital letters */
   margin-top: 20px;                   /* Add 40 pixels of space above this element */
   margin-bottom: 20px;                /* Add 12 pixels of space below this element */
-  font-size: 10px;                    /* Set font size to 14 pixels */                /* Make the text italic */
+  font-size: 20px;                    /* Set font size to 14 pixels */                /* Make the text italic */
   text-align: left;  
   font-style: italic;
+}
+
+.project-link:hover {
+  text-decoration: underline; /* Underline when hovered */
+  color: #555;                /* Optional: change color on hover */
 }
 
 button {                              /* Target all button elements */
