@@ -27,11 +27,29 @@ main {                               /* Target the main content area */
 .project-author {                      /* Target elements with class="project-author" */
   font-weight: 300;                   /* Make the text bold */
   text-transform: uppercase;          /* Convert text to all capital letters */
-  margin-top: 40px;                   /* Add 40 pixels of space above this element */
+  margin-top: 12px;                   /* Add 40 pixels of space above this element */
   margin-bottom: 12px;                /* Add 12 pixels of space below this element */
-  font-size: 14px;                    /* Set font size to 14 pixels */
+  font-size: 30px;                    /* Set font size to 14 pixels */
   font-style: italic;                 /* Make the text italic */
   text-align: center;  
+}
+
+.project-heading {                      /* Target elements with class="project-author" */
+  font-weight: 500;                   /* Make the text bold */
+  text-transform: uppercase;          /* Convert text to all capital letters */
+  margin-top: 20px;                   /* Add 40 pixels of space above this element */
+  margin-bottom: 20px;                /* Add 12 pixels of space below this element */
+  font-size: 14px;                    /* Set font size to 14 pixels */
+  font-style: bold;                 /* Make the text italic */
+  text-align: left;  
+}
+
+.project-subheading {                      /* Target elements with class="project-author" */
+  font-weight: 500;                   /* Make the text bold */          /* Convert text to all capital letters */
+  margin-top: 20px;                   /* Add 40 pixels of space above this element */
+  margin-bottom: 20px;                /* Add 12 pixels of space below this element */
+  font-size: 14px;                    /* Set font size to 14 pixels */                /* Make the text italic */
+  text-align: left;  
 }
 
 button {                              /* Target all button elements */
