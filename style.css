@@ -399,6 +399,10 @@ main {
   text-decoration: underline;
 }
 
+.project-link--static {
+  cursor: default;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
