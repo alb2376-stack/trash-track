@@ -2,67 +2,352 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Module 1</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trash Track — A Precedent Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">A Precedent Study</p>
+      <h1 class="project-title">Trash Track</h1>
+      <p class="project-author">MIT Senseable City Lab — Led by Director Carlo Ratti and Assaf Biderman</p>
+      <a class="mit-link" href="https://senseable.mit.edu/trashtrack/" target="_blank" rel="noopener">senseable.mit.edu/trashtrack &#8594;</a>
+    </div>
+  </header>
+
   <main>
-    <div class="project-title">Trash Track</div>
-    <div class="project-author">MIT Senseable City Lab Led by Director Carlo Ratti and Assaf Biderman</div>
 
-    <div class="project-heading">Year</div>
-    <div class="project-subheading">2009</div>
+    <!-- QUICK FACTS -->
+    <section class="facts-row">
+      <div class="fact-node">
+        <span class="fact-dot"></span>
+        <span class="fact-label">Year</span>
+        <span class="fact-value">2009</span>
+      </div>
+      <div class="fact-node">
+        <span class="fact-dot"></span>
+        <span class="fact-label">Format</span>
+        <span class="fact-value">Smart Tags &amp; Visualizations</span>
+      </div>
+      <div class="fact-node">
+        <span class="fact-dot"></span>
+        <span class="fact-label">Intended Audience</span>
+        <span class="fact-value">Seattle residents, policymakers, and the general public</span>
+      </div>
+    </section>
 
-    <div class="project-heading">Format</div>
-    <div class="project-subheading">Smart Tags &amp; Visualizations</div>
+    <!-- TEAM -->
+    <section class="section">
+      <h2 class="section-heading">Project Team</h2>
 
-    <div class="project-heading">Intended Audience</div>
-    <div class="project-subheading">Seattle Residents, policymakers, and the general public</div>
+      <div class="credit-grid">
 
-    <div class="project-heading">Ontological Analysis</div>
-    <img src="assets/ontological-diagram.png" alt="Ontological analysis diagram showing the Trash Track sensor data workflow" class="project-image diagram-image">
+        <div class="credit-card">
+          <h3 class="credit-title">Leadership</h3>
+          <ul class="credit-list">
+            <li><span class="name">Carlo Ratti</span> — Director</li>
+            <li><span class="name">Assaf Biderman</span> — Associate Director <sup>[1]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-heading">Historical and Contextual Analysis</div>
-    <div class="project-paragraph">
-      The Trash Track project emerged during a period of growing concern about sustainability and waste management in the late 2000s. <strong>In 2008, New York City launched the Green NYC Initiative (PlaNYC),</strong> a sustainability plan that aimed to increase recycling rates and reduce greenhouse gas emissions. This initiative inspired the team at the MIT SENSEable City Lab to explore how sensors and mobile technologies could change the way cities are understood and managed. They were driven by a simple but powerful question: <strong>“Why do we know so much about the supply chain, and so little about the removal chain?”</strong>
-    </div>
+        <div class="credit-card">
+          <h3 class="credit-title">Team Leaders</h3>
+          <ul class="credit-list">
+            <li><span class="name">Dietmar Offenhuber</span> — Team Leader</li>
+            <li><span class="name">Eugenio Morello</span> — Team Leader, Concept</li>
+            <li><span class="name">Musstanser Tinauli</span> — Team Leader, First Phase</li>
+            <li><span class="name">Kristian Kloeckl</span> — Team Leader, Second Phase <sup>[1, 2]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-paragraph">
-      Trash Track was developed in response to rising levels of municipal waste, declining recycling rates, and the growing problem of <strong>electronic waste, which became a major environmental concern in the early 2000s.</strong> E-waste contains toxic materials such as lead, mercury, and cadmium that often end up in landfills, creating long-term environmental impacts. Interestingly, the data for the project was collected in the greater <strong>Seattle</strong> area in 2009. Although Seattle was still emerging as Silicon Valley of the Pacific Northwest, the decade saw the city become one of the nation's largest technology hubs. It is interesting that a conversation about e-waste and recycling began in a city whose rapid technological growth would also contribute to the increasing production of electronic waste. By attaching tracking sensors to everyday objects, the project made the otherwise invisible journey of waste visible, revealing how discarded items moved through cities and where they ultimately ended up. <strong>The launch of Trash Track in 2009 became one of the first large-scale applications of active location tracking technology for municipal solid waste.</strong>
-    </div>
+        <div class="credit-card">
+          <h3 class="credit-title">Engineering &amp; Programming</h3>
+          <ul class="credit-list">
+            <li><span class="name">Lewis Girod</span> — Engineering</li>
+            <li><span class="name">David Lee</span> — Programming <sup>[1]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-paragraph">
-      Rather than simply documenting waste, Trash Track questioned how people understand their relationship with the things they throw away. It was designed for both policymakers and the general public, <strong>encouraging a bottom-up approach to resource management by using technology to influence behavior and improve environmental awareness.</strong> The project emphasized that the things we throw away do not simply disappear. Instead, they travel through complex waste networks and leave environmental footprints along the way. It also highlighted the technological footprint of e-waste, connecting waste management to broader conversations about technology, consumption, and sustainability.
-    </div>
+        <div class="credit-card">
+          <h3 class="credit-title">Videography</h3>
+          <ul class="credit-list">
+            <li><span class="name">Armin Linke</span> — Video <sup>[1]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-heading">Visual and Aesthetic Representation</div>
-    <img src="assets/visual-maps.png" alt="Trash Track visualizations with mapped waste movement and exhibition imagery" class="project-image visual-image">
+        <div class="credit-card">
+          <h3 class="credit-title">Advisors</h3>
+          <ul class="credit-list">
+            <li><span class="name">Rex Britter</span></li>
+            <li><span class="name">Tim Gutowski</span></li>
+            <li><span class="name">Stephen Miles</span> <sup>[1]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-paragraph">
-      One of the main outputs of the Trash Track project is its visual representation through mapping. The maps are drawn very intentionally, <strong>highlighting only the movement and journey of the tracked trash instead of detailed geographic information. Different types of waste are represented in bright colors against a dark, almost black-and-white background.</strong> This contrast emphasizes that trash, which we often think disappears once it is thrown away, actually continues to travel far beyond what we expect. By simplifying the map and focusing only on the paths of the waste, the project makes these otherwise invisible systems visible to the public.
-    </div>
+        <div class="credit-card">
+          <h3 class="credit-title">Special Thanks</h3>
+          <ul class="credit-list">
+            <li><span class="name">Jodee Fenton</span></li>
+            <li><span class="name">Tim Pritchard</span></li>
+          </ul>
+        </div>
 
-    <div class="project-paragraph">
-      Beyond digital maps, Trash Track also communicates its findings through public exhibitions. Originally developed in Seattle, the project has since been exhibited in other metropolitan cities such as New York, London, and Taiwan, allowing its message to reach audiences in different urban contexts. The exhibition format reinforces the project's goal of making invisible infrastructure visible by transforming scientific data into an engaging public experience. <strong>Rather than presenting statistics alone, visitors are immersed in visual narratives that reveal how waste moves through cities and across regions.</strong>
-    </div>
+        <div class="credit-card credit-card--wide">
+          <h3 class="credit-title">Team Members</h3>
+          <ul class="credit-list credit-list--columns">
+            <li><span class="name">Alan Anderson</span></li>
+            <li><span class="name">Clio Andris</span></li>
+            <li><span class="name">Avid Boustani</span></li>
+            <li><span class="name">Carnaven Chiu</span></li>
+            <li><span class="name">Chris Chung</span></li>
+            <li><span class="name">Lorenzo Davolli</span></li>
+            <li><span class="name">Kathryn Dineen</span></li>
+            <li><span class="name">Jennifer Dunnam</span></li>
+            <li><span class="name">Natalia Duque Ciceri</span></li>
+            <li><span class="name">Samantha Earl</span></li>
+            <li><span class="name">E Roon Kang</span></li>
+            <li><span class="name">Sarabjit Kaur</span></li>
+            <li><span class="name">Eugene Lee</span></li>
+            <li><span class="name">Kevin Nattinger</span></li>
+            <li><span class="name">Sarah Neilson</span></li>
+            <li><span class="name">Giovanni de Niederhausern</span></li>
+            <li><span class="name">Jill Passano</span></li>
+            <li><span class="name">Elizabeth Ramaccia</span></li>
+            <li><span class="name">Renato Rinaldi</span></li>
+            <li><span class="name">Francisca Rojas</span></li>
+            <li><span class="name">Louis Sirota</span></li>
+            <li><span class="name">Angela Wang</span></li>
+            <li><span class="name">Malima Wolf</span> <sup>[1, 2]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-paragraph">
-      Overall, the project's visual language is central to its argument. The bold colors, minimal backgrounds, and emphasis on movement encourage viewers to reconsider what happens after they throw something away. Instead of portraying waste as the end of a product's life, the visualizations reveal it as the beginning of another journey. <strong>This representational approach not only raises public awareness about recycling and waste management but also encourages conversations around more sustainable policies and individual responsibility.</strong>
-    </div>
+        <div class="credit-card credit-card--wide">
+          <h3 class="credit-title">Lead Volunteers</h3>
+          <ul class="credit-list credit-list--columns">
+            <li><span class="name">Lance Albertson</span></li>
+            <li><span class="name">Richard Auger</span></li>
+            <li><span class="name">Michael Cafferty</span></li>
+            <li><span class="name">Shannon Cheng</span></li>
+            <li><span class="name">Jon Dreher</span></li>
+            <li><span class="name">Jodee Fenton</span></li>
+            <li><span class="name">Shalini Ghandi</span></li>
+            <li><span class="name">Chad Johansen</span></li>
+            <li><span class="name">Tim Pritchard</span></li>
+            <li><span class="name">Christie Rodgers</span></li>
+            <li><span class="name">Andy Smith</span> <sup>[1]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-heading">Author Bibliography</div>
-    <div><a href="https://d1wqtxts1xzle7.cloudfront.net/102951138/94dc1f68940d503c0cc553281f510d85735e-libre.pdf?1685754847=&response-content-disposition=inline%3B+filename%3DInvestigation_of_the_waste_removal_chain.pdf&Expires=1783045602&Signature=N0PZ8Z581~mNsEuhTAWoRqaVlyie0-oPzcNi4tFiwtxyv0lry90MJjICnnZ-Kv2badxNKZiTc9FWYCiclgj-mgr8UNvMMzD9nx5uKmu6uyCCSUhGAZ71P4XLLI3Q-CBhZ62nTDDSUEirSw-WnCBAmhRB-RpzN~SI5b4y6EwYliZT-ihi1C3ADcAQ0c6fRjBGYo93WvNZ3XO~Z03ubS8VWCiQ~E~t9R5AkaPrJ7jLbydZZxA3MWds4yFbXX6ZmPIFIys76SqtSHS7yRksMOKYu4j-LbcD9S1KdCwg0t2Thuw8XQG-Tq-TdPfyZAzlzvSAFkeRYKOPmRqWf1hsxlYBvg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" class="project-link" target="_blank">Boustani, Avid, et al. "Investigation of the waste-removal chain through pervasive computing." IBM Journal of Research and Development 55.1.2 (2011): 11-1.</a></div>
-    <div><a href="https://dspace.mit.edu/bitstream/handle/1721.1/101625/Ratti_Putting%20matter.pdf?sequence=1&isAllowed=y" class="project-link" target="_blank">Offenhuber, Dietmar, et al. "Putting matter in place: tradeoffs between recycling and distance in planning for waste disposal." (2012).</a></div>
-    <div><a href="https://journals.sagepub.com/doi/pdf/10.1177/0734242X12469822?__cf_chl_f_tk=UpMCyZEfwv2Wwot99Ypy9RQjqIUlsG_R.NJmB5uKsfc-1783042388-1.0.1.1-j8Usb9ywQoZ8zNEx_PPg8EW_3EKim6v0zN5LejfJ8_c" class="project-link" target="_blank">Offenhuber, Dietmar, Malima I. Wolf, and Carlo Ratti. "Trash track-active location sensing for evaluating e-waste transportation." Waste Management &amp; Research 31.2 (2013): 150-159.</a></div>
-    <div><a href="https://resolver.ebsco.com/c/hvnjcg/result?id_token_hint=eyJraWQiOiIxNzY5MTEwMjQ0MDQ3IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJzMjk1MzQ3My5tYWluIiwiZGV2aWNlX2lkIjoiOTU4MzAxZmMtODE3NS00ZWExLTgxMGQtYTA1MDM1MTI3MGYwIiwiYW1yIjpbImlwIl0sImlzcyI6Imh0dHBzOi8vYXV0aC5lYnNjby56b25lL2FwaS9kaXNwYXRjaGVyIiwiY2xpZW50X2lkIjoiYXdneWNJeDU3TXJ3bkRRNWg0VWU2eUNWRVAwcjVNdDkiLCJhdWQiOlsiaHR0cHM6Ly9hdXRoLmVic2NvLnpvbmUvYXBpL2Rpc3BhdGNoZXIiLCJodHRwOi8vYXV0aC1jeHQtbWdyLmVob3N0LWxpdmUuZWtzLmVob3N0LWxpdmUuZWlzbHouY29tIiwiaHR0cDovL3hmZi1wcm9jZXNzb3ItamF2YS5laG9zdC1kZXYuZWtzLmVob3N0LWRldnFhLmVpc2x6LmNvbS9zd2FnZ2VyLXVpL2luZGV4Lmh0bWwiLCJodHRwczovL2FjY2Vzcy1hcGkuZWJzY28uY29tIiwiYXdneWNJeDU3TXJ3bkRRNWg0VWU2eUNWRVAwcjVNdDkiXSwiYXpwIjoiYXdneWNJeDU3TXJ3bkRRNWg0VWU2eUNWRVAwcjVNdDkiLCJpZHQiOiJpbnN0aXR1dGlvbmFsIiwiZXhwIjoxNzgzMDQ2MDk1LCJpYXQiOjE3ODMwNDI0OTUsImNsaWVudF9uYW1lIjoiV2ViYXV0aCAtIE5ldyBFRFMgaWRfdG9rZW4iLCJqdGkiOiI2NzIwNmUxMi1lNjEwLTRjM2UtYWFhMy0zMWY2YjZkYWViZDciLCJ1c2VybmFtZSI6Ikluc3RpdHV0aW9uYWxVc2VyIn0.E1tjoaRd3g0cIgLMSfpVm552uCzp33Qaukri_oRsJupohC4ApdsnlWPyEWBrpuRDK2fUOe-azdyDDeZbelfJ03SQClOBQ19nFOgRP3WgpHZuTQFcw2WbBQA2PNecp4nKTrlaGjZeRHieqcTMKSbutFwzy4eSsWITVbe0bdxGQ065xs7JYEzLGezWQ0OJc31_UFsBkWHQUM4P_ewMfYUOiLbc23Xt2OikUmrBrbavsZYIxZ7qY24F_sr0T9NRAELMay0GQiqb__PVR7bpxii1x2biRZuETQ0n9DkSHFrDGWpvEa-gWUBn3YNq-nBzKU5b1PefbzSJQwsz6dsFdhfwIQ&customer=s2953473&group=main&profile=ftf&auth_type=force&key=100.65.137.136_8000_762473792&sid=google&auinit=S&aulast=Phithakkitnukoon&atitle=Tracking%20trash&id=doi:10.1109/MPRV.2013.37&title=IEEE%20Pervasive%20Computing&volume=12&issue=2&date=2013&spage=38&site=ftf-live" class="project-link" target="_blank">Phithakkitnukoon, Santi, et al. "Tracking trash." IEEE Pervasive Computing 12.2 (2013): 38-48.</a></div>
+        <div class="credit-card credit-card--wide">
+          <h3 class="credit-title">Project Partners</h3>
+          <ul class="credit-list">
+            <li><span class="name">Waste Management</span> — Claudia Hertzog · <a class="inline-link" href="mailto:CHertzog@wm.com">CHertzog@wm.com</a></li>
+            <li><span class="name">Qualcomm</span> — Daniel Obodovski · <a class="inline-link" href="mailto:danielo@qualcomm.com">danielo@qualcomm.com</a></li>
+            <li><span class="name">Sprint</span> — Brian LaBree · <a class="inline-link" href="mailto:Brian.LaBree@sprint.com">Brian.LaBree@sprint.com</a></li>
+            <li><span class="name">Mark Shepard</span> — <a class="inline-link" href="mailto:mshepard@andinc.org">mshepard@andinc.org</a> <sup>[1]</sup></li>
+          </ul>
+        </div>
 
-    <div class="project-heading">External Bibliography</div>
-    <div><a href="https://www.researchgate.net/profile/Siti-Farizwana-Mohd-Ridzwan-2/publication/328799708_A_Bibliometric_Analysis_of_Studies_on_Medical_Radiation_Workers_Active_Authors_Hot_Topics_and_Malaysian_Works_in_the_Research_Landscape/links/5d94046e92851c33e94e05ba/A-Bibliometric-Analysis-of-Studies-on-Medical-Radiation-Workers-Active-Authors-Hot-Topics-and-Malaysian-Works-in-the-Research-Landscape.pdf#page=240" class="project-link" target="_blank">Kanarkard, Wanida, Thanpitcha Pathike, and Anupong Tita. "A Smart Library Trash Tracking System for Green Library." Researchers Satisfaction to the Library Services (2017): 237.</a></div>
-    <div><a href="https://www.nbcnews.com/id/wbna31928216" class="project-link" target="_blank">https://www.nbcnews.com/id/wbna31928216</a></div>
-    <div><a href="https://www.nytimes.com/2009/09/17/science/earth/17trash.html" class="project-link" target="_blank">https://www.nytimes.com/2009/09/17/science/earth/17trash.html</a></div>
-    <div><a href="https://www.wired.com/2009/07/mit-trash-track/" class="project-link" target="_blank">https://www.wired.com/2009/07/mit-trash-track/</a></div>
+        <div class="credit-card credit-card--wide">
+          <h3 class="credit-title">Supported By</h3>
+          <ul class="credit-list credit-list--columns">
+            <li>City of Seattle</li>
+            <li>Office of Arts and Cultural Affairs</li>
+            <li>Seattle Public Utilities</li>
+            <li>The Seattle Public Library</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RELATIONAL DIAGRAM -->
+    <section class="section">
+      <h2 class="section-heading">Relational Diagram</h2>
+      <img src="assets/relational-diagram.png" alt="Relational diagram mapping how trash, GSM sensors, the cellphone network, and MIT Senseable City Lab researchers connect to produce data visualizations and exhibitions" class="project-image diagram-image">
+    </section>
+
+    <!-- METHODOLOGY -->
+    <section class="section">
+      <h2 class="section-heading">Methodology</h2>
+
+      <p class="project-paragraph">
+        The first part of the project is its technical methodology. MIT Senseable City Lab developed electronic tracking tags equipped with sensors to follow individual pieces of trash. The first generation of tags used GSM cellular technology and CellID triangulation, estimating a tag's location by measuring signals from nearby cell towers. Although less accurate than GPS, this method worked well because it could still detect signals inside buildings and buried within piles of waste. Later versions combined GPS with CDMA cell-tower trilateration, providing both greater accuracy and reliability while making it possible to track waste over much longer distances and, eventually, across international borders.
+      </p>
+
+      <p class="project-paragraph">
+        To make long-term tracking possible, the researchers also developed low-power algorithms that allowed the tags to spend most of their time in hibernation, waking only every few hours or whenever movement was detected. Motion and orientation sensors adjusted how frequently the tags recorded their location, extending battery life while still capturing important changes in a trash item's journey. The tags themselves were also designed to meet environmental standards, ensuring they could safely enter existing waste streams.
+      </p>
+
+      <p class="project-paragraph">
+        Alongside its technical approach, the project also relied on a human-centered methodology. Rather than collecting data from large institutions alone, Trash Track used an open, crowdsourced model by working with volunteers from the Seattle Public Library and the general public. This bottom-up approach allowed the researchers to gather waste from different neighborhoods, households, and everyday routines, creating a more diverse picture of Seattle's waste system. By focusing on ordinary objects and involving the public directly, the project emphasized transparency and showed how individual actions connect to larger urban infrastructures.
+      </p>
+    </section>
+
+    <!-- RHETORICAL ANALYSIS -->
+    <section class="section">
+      <h2 class="section-heading">Rhetorical Analysis</h2>
+
+      <p class="project-paragraph">
+        The Trash Track project emerged during a period of growing concern about sustainability and waste management in the late 2000s. <strong>In 2008, New York City launched the Green NYC Initiative (PlaNYC),</strong> a sustainability plan that aimed to increase recycling rates and reduce greenhouse gas emissions. This initiative inspired the team at the MIT SENSEable City Lab to explore how sensors and mobile technologies could change the way cities are understood and managed. They were driven by a simple but powerful question: <strong>“Why do we know so much about the supply chain, and so little about the removal chain?”</strong>
+      </p>
+
+      <p class="project-paragraph">
+        Trash Track was developed in response to rising levels of municipal waste, declining recycling rates, and the growing problem of <strong>electronic waste, which became a major environmental concern in the early 2000s.</strong> E-waste contains toxic materials such as lead, mercury, and cadmium that often end up in landfills, creating long-term environmental impacts. Interestingly, the data for the project was collected in the greater <strong>Seattle</strong> area in 2009. Although Seattle was still emerging as Silicon Valley of the Pacific Northwest, the decade saw the city become one of the nation's largest technology hubs. It is interesting that a conversation about e-waste and recycling began in a city whose rapid technological growth would also contribute to the increasing production of electronic waste. By attaching tracking sensors to everyday objects, the project made the otherwise invisible journey of waste visible, revealing how discarded items moved through cities and where they ultimately ended up. <strong>The launch of Trash Track in 2009 became one of the first large-scale applications of active location tracking technology for municipal solid waste.</strong>
+      </p>
+
+      <p class="project-paragraph">
+        Rather than simply documenting waste, Trash Track questioned how people understand their relationship with the things they throw away. It was designed for both policymakers and the general public, <strong>encouraging a bottom-up approach to resource management by using technology to influence behavior and improve environmental awareness.</strong> The project emphasized that the things we throw away do not simply disappear. Instead, they travel through complex waste networks and leave environmental footprints along the way. It also highlighted the technological footprint of e-waste, connecting waste management to broader conversations about technology, consumption, and sustainability.
+      </p>
+
+      <p class="project-paragraph">
+        In the 1970s, waste was mostly managed locally, with most cities operating their own landfills. As cities expanded, however, trash began moving farther away to the outskirts. While cities became more centralized, waste became increasingly decentralized and invisible. The farther trash travels, the less people understand where it actually ends up.
+      </p>
+
+      <p class="project-paragraph">
+        This lack of transparency has only grown as waste production has increased. <strong>Kreith and Tchobanoglous (2022) argue that there is a lack of clear standards and enforcement for tracking waste transportation and data.</strong> This not only increases disposal and transportation costs but also creates significant environmental impacts. In the Trash Track project, <strong>one tagged object traveled nearly 3,000 miles before reaching its final destination.</strong> This becomes especially concerning with hazardous and electronic waste, which often travels the longest distances. Many landfills are also located in low-income and marginalized communities, exposing these communities to disproportionate environmental risks.
+      </p>
+
+      <p class="project-paragraph">
+        Trash Track responds to these issues by revealing the hidden journeys of waste. By making waste visible, the project exposes inefficiencies in transportation and waste management systems while encouraging people to rethink their relationship with consumption and disposal. Ultimately, it aims to optimize waste management and inspire behavioral change by showing that <strong>trash is deeply connected to people, cities, and the infrastructure that supports them.</strong> In a city like Seattle, a major metropolitan hub, waste quickly disappears from public view, making it easy to ignore where it goes and who is affected by it.
+      </p>
+
+      <!-- TIMELINE -->
+      <div class="timeline-wrap">
+        <p class="timeline-caption">Context Timeline</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-year">2002</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">Experts Kreith and Tchobanoglous argue there's a lack of empirical data in the waste management sector.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2003</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">Seattle's City Mayor mandates commercial recycling.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2006</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">Washington enacts the Electronic Product Recycling Law, making manufacturers responsible for financing the recycling of their products at end of life.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2007</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">254 million tons of municipal trash generated nationally — three times as much as 50 years earlier.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2008</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">Seattle City Council passes the Zero Waste Resolution to recycle and compost all landfill waste.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2009</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">NYC's Green NYC Initiative inspires the Trash Track project; Washington's E-Waste Recycling Law takes effect, funding free e-waste recycling.</p>
+          </div>
+          <div class="timeline-item timeline-item--launch">
+            <span class="timeline-year">2009</span>
+            <span class="timeline-dot timeline-dot--launch"></span>
+            <p class="timeline-text"><strong>Trash Track launches</strong>, January 1.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">After</span>
+            <span class="timeline-dot"></span>
+            <p class="timeline-text">Results are presented through immersive exhibitions in multiple cities, sparking discussions on sustainable public policy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISUAL AND AESTHETIC REPRESENTATION -->
+    <section class="section">
+      <h2 class="section-heading">Visual and Aesthetic Representation</h2>
+      <img src="assets/visual-maps.png" alt="Trash Track visualizations with mapped waste movement and exhibition imagery" class="project-image visual-image">
+
+      <p class="project-paragraph">
+        One of the main outputs of the Trash Track project is its visual representation through mapping. The maps are drawn very intentionally, <strong>highlighting only the movement and journey of the tracked trash instead of detailed geographic information. Different types of waste are represented in bright colors against a dark, almost black-and-white background.</strong> This contrast emphasizes that trash, which we often think disappears once it is thrown away, actually continues to travel far beyond what we expect. By simplifying the map and focusing only on the paths of the waste, the project makes these otherwise invisible systems visible to the public.
+      </p>
+
+      <p class="project-paragraph">
+        Beyond digital maps, Trash Track also communicates its findings through public exhibitions. Originally developed in Seattle, the project has since been exhibited in other metropolitan cities such as New York, London, and Taiwan, allowing its message to reach audiences in different urban contexts. The exhibition format reinforces the project's goal of making invisible infrastructure visible by transforming scientific data into an engaging public experience. <strong>Rather than presenting statistics alone, visitors are immersed in visual narratives that reveal how waste moves through cities and across regions.</strong>
+      </p>
+
+      <p class="project-paragraph">
+        Overall, the project's visual language is central to its argument. The bold colors, minimal backgrounds, and emphasis on movement encourage viewers to reconsider what happens after they throw something away. Instead of portraying waste as the end of a product's life, the visualizations reveal it as the beginning of another journey. <strong>This representational approach not only raises public awareness about recycling and waste management but also encourages conversations around more sustainable policies and individual responsibility.</strong>
+      </p>
+    </section>
+
+    <!-- TRASH TRACK WITHIN AUTHOR'S PRACTICE -->
+    <section class="section">
+      <h2 class="section-heading">Trash Track within Author's Practice</h2>
+
+      <p class="project-paragraph">
+        Carlo Ratti is an architect, engineer, and urban scholar whose work focuses on understanding urban systems through intelligent technologies and the convergence between the natural and artificial worlds. At the center of his practice is the idea of creating an <strong>"architecture that senses and responds."</strong> His research explores how digital technologies can help us better understand cities, making him one of the leading voices in discussions around smart cities and responsive urban design.
+      </p>
+
+      <p class="project-paragraph">
+        Although his work is highly technological, Ratti argues that his philosophy is deeply human-centered. He often describes his approach as bottom-up, placing people at the center of the design process. In Trash Track, for example, <strong>the project depends on crowdsourcing and public participation,</strong> using volunteers to reveal everyday behaviors and people's relationship with waste. This same approach appears in other projects, such as Space of Ideas, where research is driven by open participation and grassroots collaboration rather than top-down planning.
+      </p>
+
+      <p class="project-paragraph">
+        In his 2023 Noema article, "The Endless Possibilities of Open-Source Urban Design," Ratti argues that urban design should be an iterative process that is <strong>"sensitive to the needs of people and nature."</strong> He believes that complex urban systems require broad public participation and that designers should move away from searching for an "optimal design." Instead, projects should remain open-ended, allowing them to evolve over time rather than striving for a single perfect solution.
+      </p>
+
+      <p class="project-paragraph">
+        These ideas continue in his 2017 book, <em>Waste Is Information</em>, published nearly a decade after Trash Track. Expanding the research beyond Seattle to cities including São Paulo and Boston, Ratti argues that <strong>waste flows reveal how cities actually function.</strong> Drawing on the work of Dietmar Offenhuber, the book suggests that cities can be read through their infrastructure and waste systems, highlighting a model of infrastructure governance based on the complex negotiation between people, technology, and the city. Across his work, Ratti consistently uses intelligent systems not as an end in themselves, but as a way to better understand human behavior and make urban systems more transparent.
+      </p>
+    </section>
+
+    <!-- PERSONAL ASSESSMENT -->
+    <section class="section">
+      <h2 class="section-heading">Personal Assessment</h2>
+
+      <p class="project-paragraph">
+        One criticism of Trash Track is that it leans toward technological solutionism. While the project successfully made invisible waste systems visible, it also raises questions about surveillance and privacy. During the time it was created, tracking waste was an innovative way to understand human behavior and waste management systems. However, today these conversations are much more complicated, especially around surveillance, data collection, and corporate responsibility for electronic waste. A decade later, Ratti's book <em>Waste Is Information</em> expands on these ideas, arguing that waste itself can become a valuable source of information for understanding cities.
+      </p>
+
+      <p class="project-paragraph">
+        At the same time, trash and waste are incredibly complex systems, and technology alone cannot solve them. I appreciate Ratti's human-centered approach, especially the use of crowdsourcing and public participation rather than simply focusing on optimization. However, the project also simplifies a much larger issue. <strong>Although around 3,000 objects were tagged, only about 1,100 were successfully tracked to the end,</strong> showing the limitations of relying on technology to represent an entire waste system. There are also privacy concerns, since trash often contains personal information, and many people may not be comfortable having their waste tracked.
+      </p>
+
+      <p class="project-paragraph">
+        What I find most valuable about the project is not that it solves the waste problem, but that it exposes hidden infrastructures. It revealed that many waste items, especially electronic waste, travel thousands of miles and often end up in remote or marginalized communities, exposing major gaps in our recycling and disposal systems. Nearly two decades later, these problems still exist. Waste continues to be exported to lower-income regions, showing that the issue is ultimately systemic. Rather than only improving how we dispose of waste, <strong>I think we should also rethink how products are designed and manufactured so they are not intended to be thrown away in the first place.</strong> In that sense, Trash Track is an important starting point for making waste visible, but it is only one piece of a much larger conversation.
+      </p>
+    </section>
+
+    <!-- AUTHOR BIBLIOGRAPHY -->
+    <section class="section">
+      <h2 class="section-heading">Author Bibliography</h2>
+      <div class="link-list">
+        <a href="https://d1wqtxts1xzle7.cloudfront.net/102951138/94dc1f68940d503c0cc553281f510d85735e-libre.pdf?1685754847=&response-content-disposition=inline%3B+filename%3DInvestigation_of_the_waste_removal_chain.pdf&Expires=1783045602&Signature=N0PZ8Z581~mNsEuhTAWoRqaVlyie0-oPzcNi4tFiwtxyv0lry90MJjICnnZ-Kv2badxNKZiTc9FWYCiclgj-mgr8UNvMMzD9nx5uKmu6uyCCSUhGAZ71P4XLLI3Q-CBhZ62nTDDSUEirSw-WnCBAmhRB-RpzN~SI5b4y6EwYliZT-ihi1C3ADcAQ0c6fRjBGYo93WvNZ3XO~Z03ubS8VWCiQ~E~t9R5AkaPrJ7jLbydZZxA3MWds4yFbXX6ZmPIFIys76SqtSHS7yRksMOKYu4j-LbcD9S1KdCwg0t2Thuw8XQG-Tq-TdPfyZAzlzvSAFkeRYKOPmRqWf1hsxlYBvg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" class="project-link" target="_blank" rel="noopener">Boustani, Avid, et al. "Investigation of the waste-removal chain through pervasive computing." IBM Journal of Research and Development 55.1.2 (2011): 11-1.</a>
+        <a href="https://dspace.mit.edu/bitstream/handle/1721.1/101625/Ratti_Putting%20matter.pdf?sequence=1&isAllowed=y" class="project-link" target="_blank" rel="noopener">Offenhuber, Dietmar, et al. "Putting matter in place: tradeoffs between recycling and distance in planning for waste disposal." (2012).</a>
+        <a href="https://journals.sagepub.com/doi/pdf/10.1177/0734242X12469822?__cf_chl_f_tk=UpMCyZEfwv2Wwot99Ypy9RQjqIUlsG_R.NJmB5uKsfc-1783042388-1.0.1.1-j8Usb9ywQoZ8zNEx_PPg8EW_3EKim6v0zN5LejfJ8_c" class="project-link" target="_blank" rel="noopener">Offenhuber, Dietmar, Malima I. Wolf, and Carlo Ratti. "Trash track-active location sensing for evaluating e-waste transportation." Waste Management &amp; Research 31.2 (2013): 150-159.</a>
+        <a href="https://resolver.ebsco.com/c/hvnjcg/result?id_token_hint=eyJraWQiOiIxNzY5MTEwMjQ0MDQ3IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJzMjk1MzQ3My5tYWluIiwiZGV2aWNlX2lkIjoiOTU4MzAxZmMtODE3NS00ZWExLTgxMGQtYTA1MDM1MTI3MGYwIiwiYW1yIjpbImlwIl0sImlzcyI6Imh0dHBzOi8vYXV0aC5lYnNjby56b25lL2FwaS9kaXNwYXRjaGVyIiwiY2xpZW50X2lkIjoiYXdneWNJeDU3TXJ3bkRRNWg0VWU2eUNWRVAwcjVNdDkiLCJhdWQiOlsiaHR0cHM6Ly9hdXRoLmVic2NvLnpvbmUvYXBpL2Rpc3BhdGNoZXIiLCJodHRwOi8vYXV0aC1jeHQtbWdyLmVob3N0LWxpdmUuZWtzLmVob3N0LWxpdmUuZWlzbHouY29tIiwiaHR0cDovL3hmZi1wcm9jZXNzb3ItamF2YS5laG9zdC1kZXYuZWtzLmVob3N0LWRldnFhLmVpc2x6LmNvbS9zd2FnZ2VyLXVpL2luZGV4Lmh0bWwiLCJodHRwczovL2FjY2Vzcy1hcGkuZWJzY28uY29tIiwiYXdneWNJeDU3TXJ3bkRRNWg0VWU2eUNWRVAwcjVNdDkiXSwiYXpwIjoiYXdneWNJeDU3TXJ3bkRRNWg0VWU2eUNWRVAwcjVNdDkiLCJpZHQiOiJpbnN0aXR1dGlvbmFsIiwiZXhwIjoxNzgzMDQ2MDk1LCJpYXQiOjE3ODMwNDI0OTUsImNsaWVudF9uYW1lIjoiV2ViYXV0aCAtIE5ldyBFRFMgaWRfdG9rZW4iLCJqdGkiOiI2NzIwNmUxMi1lNjEwLTRjM2UtYWFhMy0zMWY2YjZkYWViZDciLCJ1c2VybmFtZSI6Ikluc3RpdHV0aW9uYWxVc2VyIn0.E1tjoaRd3g0cIgLMSfpVm552uCzp33Qaukri_oRsJupohC4ApdsnlWPyEWBrpuRDK2fUOe-azdyDDeZbelfJ03SQClOBQ19nFOgRP3WgpHZuTQFcw2WbBQA2PNecp4nKTrlaGjZeRHieqcTMKSbutFwzy4eSsWITVbe0bdxGQ065xs7JYEzLGezWQ0OJc31_UFsBkWHQUM4P_ewMfYUOiLbc23Xt2OikUmrBrbavsZYIxZ7qY24F_sr0T9NRAELMay0GQiqb__PVR7bpxii1x2biRZuETQ0n9DkSHFrDGWpvEa-gWUBn3YNq-nBzKU5b1PefbzSJQwsz6dsFdhfwIQ&customer=s2953473&group=main&profile=ftf&auth_type=force&key=100.65.137.136_8000_762473792&sid=google&auinit=S&aulast=Phithakkitnukoon&atitle=Tracking%20trash&id=doi:10.1109/MPRV.2013.37&title=IEEE%20Pervasive%20Computing&volume=12&issue=2&date=2013&spage=38&site=ftf-live" class="project-link" target="_blank" rel="noopener">Phithakkitnukoon, Santi, et al. "Tracking trash." IEEE Pervasive Computing 12.2 (2013): 38-48.</a>
+      </div>
+    </section>
+
+    <!-- EXTERNAL BIBLIOGRAPHY -->
+    <section class="section">
+      <h2 class="section-heading">External Bibliography</h2>
+      <div class="link-list">
+        <a href="https://www.researchgate.net/profile/Siti-Farizwana-Mohd-Ridzwan-2/publication/328799708_A_Bibliometric_Analysis_of_Studies_on_Medical_Radiation_Workers_Active_Authors_Hot_Topics_and_Malaysian_Works_in_the_Research_Landscape/links/5d94046e92851c33e94e05ba/A-Bibliometric-Analysis-of-Studies-on-Medical-Radiation-Workers-Active-Authors-Hot-Topics-and-Malaysian-Works-in-the-Research-Landscape.pdf#page=240" class="project-link" target="_blank" rel="noopener">Kanarkard, Wanida, Thanpitcha Pathike, and Anupong Tita. "A Smart Library Trash Tracking System for Green Library." Researchers Satisfaction to the Library Services (2017): 237.</a>
+        <a href="https://www.nbcnews.com/id/wbna31928216" class="project-link" target="_blank" rel="noopener">https://www.nbcnews.com/id/wbna31928216</a>
+        <a href="https://www.nytimes.com/2009/09/17/science/earth/17trash.html" class="project-link" target="_blank" rel="noopener">https://www.nytimes.com/2009/09/17/science/earth/17trash.html</a>
+        <a href="https://www.wired.com/2009/07/mit-trash-track/" class="project-link" target="_blank" rel="noopener">https://www.wired.com/2009/07/mit-trash-track/</a>
+      </div>
+    </section>
+
   </main>
-  <script src="script.js"></script>
+
+  <footer class="site-footer">
+    <p>Trash Track — A Precedent Study · Aqila Bakri</p>
+  </footer>
+
 </body>
 </html>
